@@ -11,7 +11,7 @@ Soy estudiante de programación en 42 Madrid, una academia innovadora basada en 
 ## Mis habilidades
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,javascript,html,css,git" height="40" />
+  <img src="https://skillicons.dev/icons?i=c,python,react,php,typescript,tailwind,nodejs,git" height="40" />
 </div>
 
 ## Proyectos en 42 Madrid
@@ -20,11 +20,13 @@ Soy estudiante de programación en 42 Madrid, una academia innovadora basada en 
 - 📚 **Libft**: Biblioteca personalizada en C ✅
 - 📝 **Get_next_line**: Función para leer líneas de un archivo ✅
 - 🖨️ **ft_printf**: Implementación propia de printf ✅
-- 🎮 **so_long**: Videojuego 2D usando MiniLibX 📈
+- 🖨️ **push-swap**: Jugando con Algoritmos de Ordenación ✅
+- 🖨️ **Exam-Rank-02**: Programa para preparse los exámenes, que aleatoriza y lleva un conteo de los     ejercicios ✅
+- 🎮 **fract-ol**: Renderización de Fractales sobre CPU usando MLX42 📈
 
 ## Distrify.me
 
-<img align="right" width="300" src="URL_DE_IMAGEN_DE_DISTRIFY" />
+<img align="right" width="300" src="https://distrify.me/assets/img/logo-distrify-me-light-D3d3Wt0w.svg" />
 
 En distrify.me estamos revolucionando la forma en que los artistas monetizan su música a través de:
 
@@ -32,6 +34,7 @@ En distrify.me estamos revolucionando la forma en que los artistas monetizan su 
 - Análisis de datos para optimizar estrategias de lanzamiento
 - Marketing digital personalizado según audiencia
 - Plataformas innovadoras para conectar con fans
+- Entendemos que el artista es lo primero, y que los datos solo acompañan y ayudan a mejorar
 
 ## GitHub Stats
 

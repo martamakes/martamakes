@@ -1,4 +1,4 @@
-<img align="center" width="900" height="200" src="URL_DE_TU_BANNER_ANIMADO" />
+<img align="center" width="900" height="200" src="logo.svg" />
 
 # ¡Hola, soy Marta! 👋
 

@@ -30,7 +30,7 @@ Soy estudiante de programación en 42 Madrid, una academia innovadora basada en 
 
 En distrify.me estamos revolucionando la forma en que los artistas monetizan su música a través de:
 
-- Tokenización del engagement de fans
+- Tokenización del engagement de fans dentro de redes sociales y DSPs
 - Análisis de datos para optimizar estrategias de lanzamiento
 - Marketing digital personalizado según audiencia
 - Plataformas innovadoras para conectar con fans
@@ -52,7 +52,7 @@ En distrify.me estamos revolucionando la forma en que los artistas monetizan su 
   <a href="mailto:marta.vigara.gonzalez@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/marta-vigara">
+  <a href="https://linkedin.com/in/martavigara">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://distrify.me/contact">

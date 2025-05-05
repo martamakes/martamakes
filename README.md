@@ -48,7 +48,7 @@ En distrify.me estamos revolucionando la forma en que los artistas monetizan su 
 ![3D Contribution](./profile-3d-contrib/profile-night-rainbow.svg)
 
 ## Mis contribuciones
-![Snake animation](https://github.com/martamakes/martamakes/blob/output/dist/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/martamakes/martamakes/blob/output/github-contribution-grid-snake.svg)
 
 ## Conéctate conmigo
 

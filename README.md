@@ -8,10 +8,6 @@
 
 Soy estudiante de programación en 42 Madrid, una academia innovadora basada en aprendizaje peer-to-peer. Además, he fundado [distrify.me](https://distrify.me), una empresa dedicada a ayudar a artistas a monetizar su música mediante marketing digital.
 
-## 🎵 Escuchando ahora 🎵
-
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=1123451881&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://open.spotify.com/user/1123451881?si=u7fN0hO1RkeyHZHJuBSJPw)
-
 ## Mis habilidades
 
 <div align="center">
@@ -27,7 +23,7 @@ Soy estudiante de programación en 42 Madrid, una academia innovadora basada en 
 - 🔄 **push-swap**: Jugando con Algoritmos de Ordenación ✅
 - 📊 **pipex**: Implementación de un sistema de redirección y tuberías (pipes) en C ✅
 - 🎮 **fract-ol**: Renderización de Fractales sobre CPU usando MLX42 ✅
-- 🎓 **exam-rank-42**: [Repositorio](https://github.com/martamakes/exam-rank-42) en construcción para practicar todos los exámenes de 42 🚧
+- 🎓 **exam-rank-42**: [Repositorio](https://github.com/martamakes/42-exam-rank-42) en construcción para practicar todos los exámenes de 42 🚧
 
 ## Distrify.me
 

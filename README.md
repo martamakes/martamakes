@@ -40,15 +40,18 @@ En distrify.me estamos revolucionando la forma en que los artistas monetizan su 
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=martamakes&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=martamakes&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=martamakes&show_icons=true&bg_color=0D1117&title_color=F724A9&icon_color=F724A9&text_color=8B949E&border_color=F724A9" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=martamakes&background=0D1117&ring=F724A9&fire=F724A9&currStreakNum=8B949E&sideNums=8B949E&currStreakLabel=F724A9&sideLabels=F724A9&dates=8B949E&border=F724A9" alt="GitHub Streak" />
 </div>
 
 ## Contribuciones en 3D
-![3D Contribution](./profile-3d-contrib/profile-night-rainbow.svg)
+![3D Contribution](./profile-3d-contrib/profile-3d-contrib.svg)
 
 ## Mis contribuciones
 ![Snake animation](https://github.com/martamakes/martamakes/blob/output/github-contribution-grid-snake.svg)
+
+## Gráfico personalizado de contribuciones
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=martamakes&theme=react-dark&bg_color=0D1117&color=F724A9&line=F724A9&point=FFFFFF&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ## Conéctate conmigo
 

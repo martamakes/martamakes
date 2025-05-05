@@ -1,0 +1,22 @@
+name: Update Chess Games
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Ejecutar diariamente a medianoche
+  workflow_dispatch:  # Permitir ejecución manual
+
+jobs:
+  update-readme:
+    name: Update README with Chess games
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Generate Chess stats README
+        uses: Balastrong/chess-stats-action@v1.5.0
+        with:
+          CHESS_USERNAME: 'martamakes'  # Reemplaza con tu usuario de Chess.com
+          COMMIT_MESSAGE: '📊 Update Chess.com games'

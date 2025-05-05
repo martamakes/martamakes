@@ -8,10 +8,6 @@
 
 Soy estudiante de programación en 42 Madrid, una academia innovadora basada en aprendizaje peer-to-peer. Además, he fundado [distrify.me](https://distrify.me), una empresa dedicada a ayudar a artistas a monetizar su música mediante marketing digital.
 
-## 🎵 Escuchando ahora 🎵
-
-[![Spotify](https://spotify-github-profile.vercel.app/api/view?uid=1123451881&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](https://open.spotify.com/user/1123451881?si=u7fN0hO1RkeyHZHJuBSJPw)
-
 ## Mis habilidades
 
 <div align="center">
@@ -25,9 +21,8 @@ Soy estudiante de programación en 42 Madrid, una academia innovadora basada en 
 - 📝 **Get_next_line**: Función para leer líneas de un archivo ✅
 - 🖨️ **ft_printf**: Implementación propia de printf ✅
 - 🖨️ **push-swap**: Jugando con Algoritmos de Ordenación ✅
-- 🖨️ **Exam-Rank-02**: Programa para preparse los exámenes, que aleatoriza y lleva un conteo de los     ejercicios ✅
 - 🎮 **fract-ol**: Renderización de Fractales sobre CPU usando MLX42 ✅
-- 🎓 **exam-rank-42**: Repositorio en construcción para practicar todos los exámenes de 42 🚧
+- 🎓 [![**exam-rank-42**](https://github.com/martamakes/42-exam-rank-42)]: Repositorio en construcción para practicar todos los exámenes de 42 🚧
 
 ## Distrify.me
 
@@ -40,10 +35,6 @@ En distrify.me estamos revolucionando la forma en que los artistas monetizan su 
 - Marketing digital personalizado según audiencia
 - Plataformas innovadoras para conectar con fans
 - Entendemos que el artista es lo primero, y que los datos solo acompañan y ayudan a mejorar
-
-## 🎮 Mis partidas de ajedrez 🎮
-<!-- CHESS-GAMES:START -->
-<!-- CHESS-GAMES:END -->
 
 ## GitHub Stats
 

@@ -1,5 +1,9 @@
 name: GitHub-Profile-3D-Contrib
 
+permissions:
+  contents: write
+  pages: write
+
 on:
   schedule: # 00:00 JST == 15:00 UTC
     - cron: "0 15 * * *"

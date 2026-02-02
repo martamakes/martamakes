@@ -4,11 +4,13 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
 
 </div>
+
 <div align="center">
 
 # ¡Hola, soy Marta! 👋
 
 ### Full-Stack Developer | IA-Powered Development | 42 Madrid
+
 
 De estudiante de programación a construir un **SaaS con +150 artistas y +2,000 canciones distribuidas**
 
@@ -85,6 +87,31 @@ DevOps:      GitHub Actions • Vercel • Monitoring
 
 ---
 
+## 💼 Experiencia Adicional
+
+### Desarrollo en Odoo (ERP/Python)
+
+Implementación de módulos personalizados para gestión empresarial:
+
+- 📊 **Gestión de asistencia por proyectos** - Control de trabajadores remotos
+- 💰 **Sistema de facturación completo** - Facturas, cobros y pagos
+- 🏦 **Tesorería y contabilidad** - Gestión de flujos de caja
+- 📑 **Gestión fiscal** - Automatización de impuestos
+- 🔗 **Integración con Verifactu** - Cumplimiento normativa española de facturación
+
+### Automatizaciones con n8n
+
+Workflows automatizados para sistemas de marketing:
+
+- 🤖 Automatización de campañas de email marketing
+- 🔄 Sincronización entre CRM y herramientas de marketing
+- 📈 Reportes automáticos y notificaciones
+- 🎯 Segmentación y triggering de acciones basadas en eventos
+
+**Stack**: Python • Odoo • n8n • PostgreSQL • REST APIs
+
+---
+
 ## 💪 Lo Que Puedo Aportar
 
 | Skill | Nivel | Evidencia |
@@ -154,6 +181,8 @@ Idea → Plan (IA) → Code Review (IA + humano) → Security Scan (IA) → Depl
 ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
@@ -162,6 +191,7 @@ Idea → Plan (IA) → Code Review (IA + humano) → Security Scan (IA) → Depl
 ### 🤖 IA & Herramientas
 
 ![Claude](https://img.shields.io/badge/Claude_API-8A2BE2?style=flat-square&logo=anthropic&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)

@@ -1,10 +1,23 @@
+<div align="center">
+
 # ¡Hola, soy Marta! 👋
 
-**Full-Stack Developer** • **42 Madrid** • **Fundadora de distrify.me**
+### Full-Stack Developer | IA-Powered Development | 42 Madrid
 
-De estudiante de programación a construir un **SaaS con +150 artistas y +2,000 canciones distribuidas**. Especializada en **Next.js, TypeScript y arquitecturas seguras y escalables**.
+De estudiante de programación a construir un **SaaS con +150 artistas y +2,000 canciones distribuidas**
 
-🔍 **Buscando**: Primer rol como Full-Stack/Frontend Developer donde pueda aportar mi experiencia construyendo productos reales y seguir creciendo en un equipo técnico sólido.
+Especializada en **Next.js • TypeScript • Arquitecturas Seguras y Escalables**
+
+---
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:marta.vigara.gonzalez@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/martavigara)
+[![Distrify](https://img.shields.io/badge/Mi_Proyecto-00D9FF?style=flat-square&logo=vercel&logoColor=white)](https://distrify.me)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/martamakes)
+
+🔍 **Buscando**: Primer rol Full-Stack/Frontend Developer • Madrid (presencial/híbrido/remoto)
+
+</div>
 
 ---
 
@@ -112,12 +125,17 @@ Idea → Plan (IA) → Code Review (IA + humano) → Security Scan (IA) → Depl
 
 **Peer-to-peer learning** • C, C++, Algoritmos, Sistemas
 
-Mientras construyo distrify.me, también completo proyectos de bajo nivel en 42:
-- **Minishell**: Shell tipo Bash (pipes, redirects, signals)
-- **Philosophers**: Sincronización con threads y mutex
-- **CPP Modules**: POO y STL en C++
+<div align="center">
 
-> 📚 [Ver todos los proyectos de 42 →](https://github.com/martamakes?tab=repositories&q=42)
+| Proyecto | Skills | Status |
+|----------|--------|--------|
+| **Minishell** | System calls, Process management | ✅ |
+| **Philosophers** | Threads, Mutex, Concurrency | ✅ |
+| **CPP Modules** | POO, STL, Templates | ✅ |
+
+[📚 Ver todos los proyectos de 42 →](https://github.com/martamakes?tab=repositories&q=42)
+
+</div>
 
 ---
 
@@ -126,33 +144,45 @@ Mientras construyo distrify.me, también completo proyectos de bajo nivel en 42:
 <div align="center">
 
 ### 💼 Experiencia Real en Producción
-![Next.js](https://img.shields.io/badge/Next.js%2014-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-### 🔧 Herramientas & DevOps
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
-### 📚 Fundamentos (42 Madrid)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### 🤖 IA & Herramientas
+
+![Claude](https://img.shields.io/badge/Claude_API-8A2BE2?style=flat-square&logo=anthropic&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
+
+### 📚 Fundamentos
+
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 En Números
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=martamakes&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=martamakes&theme=radical&hide_border=true" alt="GitHub Streak" height="170" />
+
+| Métrica | Valor |
+|---------|-------|
+| 🎯 **Artistas en producción** | +150 |
+| 🎵 **Canciones distribuidas** | +2,000 |
+| ⚡ **Uptime en producción** | 99.9% |
+| 🚀 **Velocidad con IA** | 3x más rápido |
+| 📦 **Proyectos en GitHub** | [Ver repos →](https://github.com/martamakes?tab=repositories) |
+
 </div>
 
 ---
@@ -173,22 +203,18 @@ Mientras construyo distrify.me, también completo proyectos de bajo nivel en 42:
 
 <div align="center">
 
-¿Te interesa mi perfil? Escríbeme y cuéntame sobre tu equipo y producto 👇
+**¿Te interesa mi perfil?** Escríbeme y cuéntame sobre tu equipo y producto 👇
 
-<a href="mailto:marta.vigara.gonzalez@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-<a href="https://linkedin.com/in/martavigara">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://distrify.me">
-  <img src="https://img.shields.io/badge/Mi_Proyecto-00D9FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Distrify" />
-</a>
-<a href="https://github.com/martamakes">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
+[![Email](https://img.shields.io/badge/📧_marta.vigara.gonzalez@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:marta.vigara.gonzalez@gmail.com)
 
-**Disponibilidad**: Inmediata • **Ubicación**: Madrid (presencial/híbrido/remoto)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Marta_Vigara-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/martavigara)
+[![Portfolio](https://img.shields.io/badge/Portfolio-distrify.me-00D9FF?style=flat-square&logo=vercel&logoColor=white)](https://distrify.me)
+
+---
+
+💼 **Disponibilidad**: Inmediata
+📍 **Ubicación**: Madrid (presencial/híbrido/remoto)
+💰 **Expectativas**: Junior/Mid Full-Stack Developer
 
 </div>
 

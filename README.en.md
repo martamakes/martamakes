@@ -4,6 +4,7 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
 
 </div>
+
 <div align="center">
 
 # Hi, I'm Marta! 👋
@@ -85,6 +86,31 @@ DevOps:      GitHub Actions • Vercel • Monitoring
 
 ---
 
+## 💼 Additional Experience
+
+### Odoo Development (ERP/Python)
+
+Custom module implementation for business management:
+
+- 📊 **Project-based attendance management** - Remote worker tracking
+- 💰 **Complete invoicing system** - Invoices, collections, and payments
+- 🏦 **Treasury and accounting** - Cash flow management
+- 📑 **Tax management** - Automated tax handling
+- 🔗 **Verifactu integration** - Spanish invoicing regulation compliance
+
+### Automation with n8n
+
+Automated workflows for marketing systems:
+
+- 🤖 Email marketing campaign automation
+- 🔄 Synchronization between CRM and marketing tools
+- 📈 Automated reports and notifications
+- 🎯 Segmentation and event-based action triggering
+
+**Stack**: Python • Odoo • n8n • PostgreSQL • REST APIs
+
+---
+
 ## 💪 What I Can Bring
 
 | Skill | Level | Evidence |
@@ -92,6 +118,7 @@ DevOps:      GitHub Actions • Vercel • Monitoring
 | **Ship fast** | ⭐⭐⭐⭐⭐ | From idea to MVP in 6 weeks, to production in 3 months |
 | **Security-first** | ⭐⭐⭐⭐ | OWASP ZAP, optimistic locking, secure webhooks |
 | **Problem solver** | ⭐⭐⭐⭐⭐ | Full-stack debugging: PostgreSQL → API → React |
+| **Versatility** | ⭐⭐⭐⭐⭐ | Next.js, Python/Odoo, n8n - Complete full-stack |
 | **Fast learner** | ⭐⭐⭐⭐⭐ | Learned Next.js 14, Prisma and Stripe while building distrify |
 | **AI-powered dev** | ⭐⭐⭐⭐⭐ | Claude Code + sub-agents = 3x productivity |
 | **Self-taught** | ⭐⭐⭐⭐⭐ | 42's peer-to-peer method = learning by doing |
@@ -154,6 +181,8 @@ Idea → Plan (AI) → Code Review (AI + human) → Security Scan (AI) → Deplo
 ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
@@ -162,6 +191,7 @@ Idea → Plan (AI) → Code Review (AI + human) → Security Scan (AI) → Deplo
 ### 🤖 AI & Tools
 
 ![Claude](https://img.shields.io/badge/Claude_API-8A2BE2?style=flat-square&logo=anthropic&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)

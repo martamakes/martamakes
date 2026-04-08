@@ -22,7 +22,7 @@ Specialized in **Next.js • TypeScript • Secure and Scalable Architectures**
 [![Distrify](https://img.shields.io/badge/My_Project-00D9FF?style=flat-square&logo=vercel&logoColor=white)](https://distrify.me)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/martamakes)
 
-🔍 **Looking for**: First Full-Stack/Frontend Developer role • Madrid (on-site/hybrid/remote)
+🔍 **Open to Collan in**: Full-Stack/Frontend Developer role in new adventures • Madrid (remote)
 
 </div>
 

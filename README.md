@@ -23,7 +23,7 @@ Especializada en **Next.js • TypeScript • Arquitecturas Seguras y Escalables
 [![Distrify](https://img.shields.io/badge/Mi_Proyecto-00D9FF?style=flat-square&logo=vercel&logoColor=white)](https://distrify.me)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/martamakes)
 
-🔍 **Buscando**: Primer rol Full-Stack/Frontend Developer • Madrid (presencial/híbrido/remoto)
+🔍 **A la escuha**: Colaboro como Full-Stack/Frontend Developer • Madrid (remoto)
 
 </div>
 

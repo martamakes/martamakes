@@ -1,263 +1,115 @@
 <div align="right">
 
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.md)
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
+[![ES](https://img.shields.io/badge/Idioma-Español-yellow.svg)](README.md)
+[![EN](https://img.shields.io/badge/Language-English-red.svg)](README.en.md)
 
 </div>
 
 <div align="center">
 
-# ¡Hola, soy Marta! 👋
+# Marta Vigara
 
-### Full-Stack Developer | IA-Powered Development | 42 Madrid
+### Full-stack Product Engineer · TypeScript · React · Next.js · PostgreSQL
 
+Construyo productos SaaS en producción de extremo a extremo: desde la definición de producto y la experiencia de usuario hasta sistemas backend, pagos, seguridad y operaciones.
 
-De estudiante de programación a construir un **SaaS con +150 artistas y +2,000 canciones distribuidas**
+Mi fortaleza es entender flujos de negocio completos, identificar puntos de fallo y cuellos de botella operativos, y convertirlos en software fiable y escalable.
 
-Especializada en **Next.js • TypeScript • Arquitecturas Seguras y Escalables**
+**Madrid, España · Abierta a puestos remotos o híbridos de Full-stack / Product Engineering**
 
----
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:marta.vigara.gonzalez@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/martavigara)
-[![Distrify](https://img.shields.io/badge/Mi_Proyecto-00D9FF?style=flat-square&logo=vercel&logoColor=white)](https://distrify.me)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/martamakes)
-
-🔍 **A la escuha**: Colaboro como Full-Stack/Frontend Developer • Madrid (remoto)
+[Email](mailto:marta.vigara.gonzalez@gmail.com) ·
+[LinkedIn](https://linkedin.com/in/martavigara) ·
+[Distrify.me](https://distrify.me)
 
 </div>
 
 ---
 
-## 🚀 Mi Proyecto: Distrify.me
+## Proyecto destacado — Distrify.me
 
-**SaaS en producción** que ayuda a artistas independientes a monetizar su música mediante marketing digital y análisis de datos.
+[Distrify.me](https://distrify.me) es un SaaS music-tech en producción que ayuda a artistas independientes a distribuir, promocionar y monetizar su música.
 
-**+150 artistas** • **+2,000 canciones distribuidas** • **En crecimiento activo**
+**Más de 150 artistas · Más de 2.000 canciones distribuidas · Producto en producción**
 
-> 🔗 **[Ver en vivo](https://distrify.me)** • 📧 **[Demo/Código bajo NDA](mailto:marta.vigara.gonzalez@gmail.com)**
+### Mi responsabilidad
 
-### 📊 Impacto
+- Diseño, desarrollo y operación del producto de extremo a extremo.
+- Flujos de suscripción y créditos con Stripe, incluyendo webhooks idempotentes, lógica de reintentos y registros de auditoría.
+- Flujos asistidos por IA que generan estrategias de marketing adaptadas a cada artista.
+- Arquitectura basada en Next.js App Router, Server Components y experiencias de streaming.
+- Controles de seguridad integrados en el ciclo de entrega, incluidos escaneos automatizados con OWASP ZAP en GitHub Actions.
+- Despliegue y operaciones de producción en Vercel, con monitorización y depuración orientada a incidencias.
 
-- 🎯 **+150 artistas** usando la plataforma activamente
-- 🎵 **+2,000 canciones** distribuidas a través de distrify
-- ⚡ **99.9% uptime** en producción (Vercel)
-- 📈 **~13 canciones por artista** en promedio
-- 🤖 **Sistema de IA** generando estrategias de marketing personalizadas
+### Decisiones técnicas seleccionadas
 
-### 🛠️ Stack & Arquitectura
+| Reto | Implementación | Resultado |
+|---|---|---|
+| Consumo concurrente de créditos | Control de concurrencia optimista mediante actualizaciones versionadas en Prisma | Se evitó el doble consumo ante solicitudes simultáneas; sin inconsistencias de saldo registradas durante tres meses de operación en producción |
+| Fiabilidad de eventos de pago | Procesamiento idempotente de webhooks de Stripe, reintentos y trazabilidad mediante registros de auditoría | Conciliación segura entre eventos de pago y estado transaccional de la base de datos |
+| Seguridad antes del despliegue | Comprobaciones con OWASP ZAP en GitHub Actions; los hallazgos críticos bloquean los pull requests | Identificación y corrección de más de 15 incidencias antes de llegar a producción |
+| Experiencia de producto ágil | Server Components en rutas sensibles para SEO; Client Components, actualizaciones optimistas y streaming con Suspense donde hace falta interacción | Landing pages públicas con tiempos de carga inferiores a 2 segundos |
 
-```
-Frontend:    Next.js 14 (App Router) • React • TypeScript • Tailwind CSS
-Backend:     Next.js API Routes • Prisma ORM • PostgreSQL (Neon)
-Auth/Pagos:  NextAuth • Stripe (webhooks, subscriptions)
-AI:          Claude API (Haiku + Sonnet 4.5) • Claude Code • Prompt engineering
-CMS:         Sanity (headless)
-Security:    OWASP ZAP • Cloudflare Turnstile • Rate limiting (Redis)
-DevOps:      GitHub Actions • Vercel • Monitoring
-```
+### Stack
 
-### 💡 Retos Técnicos Que Resolví
+**TypeScript · React · Next.js · Tailwind CSS · Prisma · PostgreSQL / Neon · Redis · Stripe · Claude API · Sanity · GitHub Actions · Vercel · Cloudflare**
 
-**1. Race Conditions en Transacciones 🔒**
-- **Problema**: Usuarios podían consumir más créditos de los disponibles con requests concurrentes
-- **Solución**: Implementé optimistic locking con versionado en Prisma
-- **Resultado**: 0 inconsistencias de balance en 3 meses de producción
-
-**2. CI/CD con Testing de Seguridad Automático 🛡️**
-- **Problema**: Detectar vulnerabilidades antes de producción
-- **Solución**: Pipeline de GitHub Actions con OWASP ZAP que bloquea PRs con issues críticos
-- **Resultado**: 15+ vulnerabilidades detectadas y corregidas antes de deployment
-
-**3. Integración Multi-API Compleja 🔌**
-- **Problema**: Sincronizar Stripe webhooks, Claude API y base de datos transaccional
-- **Solución**: Sistema de webhooks idempotentes con retry logic y audit logs
-- **Resultado**: 100% de webhooks procesados correctamente
-
-**4. Arquitectura Escalable desde Día 1 📈**
-- **Diseño**: Next.js App Router con Server Components para SEO + Client Components para interactividad
-- **Performance**: Optimistic updates, streaming responses, React Suspense
-- **Resultado**: < 2s tiempo de carga en landing pages
-
-**5. Desarrollo Asistido por IA con Claude Code 🤖**
-- **Enfoque**: Uso intensivo de Claude Code para acelerar desarrollo
-- **Técnicas**: Creación de subagentes especializados (Plan, Explore, Security, Testing)
-- **Workflow**: Draft → Critic → Refinement para contenido generado con IA
-- **Resultado**: 3x velocidad de desarrollo + código más seguro (detección de race conditions con IA)
+> El repositorio de producción contiene lógica de negocio propietaria. Puedo realizar una demostración del producto, explicar decisiones de arquitectura o compartir material de implementación anonimizado y seleccionado bajo petición.
 
 ---
 
-## 💼 Experiencia Adicional
+## Cómo aporto valor
 
-### Desarrollo en Odoo (ERP/Python)
+Empiezo por mapear el flujo real: quién realiza cada paso, qué datos se mueven entre sistemas, dónde se toman decisiones y dónde puede fallar el proceso.
 
-Implementación de módulos personalizados para gestión empresarial:
+Este enfoque me ha permitido:
 
-- 📊 **Gestión de asistencia por proyectos** - Control de trabajadores remotos
-- 💰 **Sistema de facturación completo** - Facturas, cobros y pagos
-- 🏦 **Tesorería y contabilidad** - Gestión de flujos de caja
-- 📑 **Gestión fiscal** - Automatización de impuestos
-- 🔗 **Integración con Verifactu** - Cumplimiento normativa española de facturación
-
-### Automatizaciones con n8n
-
-Workflows automatizados para sistemas de marketing:
-
-- 🤖 Automatización de campañas de email marketing
-- 🔄 Sincronización entre CRM y herramientas de marketing
-- 📈 Reportes automáticos y notificaciones
-- 🎯 Segmentación y triggering de acciones basadas en eventos
-
-**Stack**: Python • Odoo • n8n • PostgreSQL • REST APIs
+- Evitar el consumo excesivo de créditos causado por solicitudes concurrentes mediante control de concurrencia optimista.
+- Hacer recuperable el procesamiento de pagos con webhooks de Stripe idempotentes, reintentos y registros de auditoría.
+- Reducir el riesgo de despliegue al integrar controles de seguridad en CI/CD en lugar de depender solo de revisiones manuales.
+- Automatizar flujos operativos de marketing entre CRM, herramientas de email y reporting con n8n.
+- Diseñar funcionalidades centradas en el flujo de trabajo de artistas, en lugar de construir componentes técnicos aislados.
 
 ---
 
-## 💪 Lo Que Puedo Aportar
+## Experiencia adicional
 
-| Skill | Nivel | Evidencia |
-|-------|-------|-----------|
-| **Ship rápido** | ⭐⭐⭐⭐⭐ | De idea a MVP en 6 semanas, a producción en 3 meses |
-| **Security-first** | ⭐⭐⭐⭐ | OWASP ZAP, optimistic locking, secure webhooks |
-| **Problem solver** | ⭐⭐⭐⭐⭐ | Debug full-stack: PostgreSQL → API → React |
-| **Fast learner** | ⭐⭐⭐⭐⭐ | Aprendí Next.js 14, Prisma y Stripe construyendo distrify |
-| **IA-powered dev** | ⭐⭐⭐⭐⭐ | Claude Code + subagentes = 3x productividad |
-| **Autodidacta** | ⭐⭐⭐⭐⭐ | Método peer-to-peer de 42 = aprender haciendo |
-| **Code quality** | ⭐⭐⭐⭐ | TypeScript strict, Zod validation, tests automatizados |
+### Sistemas de negocio y automatización
 
----
+- Desarrollo de módulos personalizados de Odoo en Python para asistencia por proyectos, facturación, tesorería, contabilidad y procesos fiscales.
+- Integraciones de facturación orientadas a Verifactu para requisitos de facturación en España.
+- Automatizaciones con n8n para sincronización de CRM, orquestación de campañas, acciones disparadas por eventos y reporting.
 
-## 🤖 IA & Claude Code - Mi Superpoder
+**Python · Odoo · n8n · PostgreSQL · REST APIs**
 
-Soy **early adopter** de desarrollo asistido por IA. No solo uso IA, la integro en mi workflow diario:
+### Fundamentos de ingeniería — 42 Madrid
 
-### 🎯 Cómo Uso Claude Code
+Proyectos completados de sistemas y C++ centrados en concurrencia, redes, contenedores y despliegue. Estos proyectos reforzaron mi forma de razonar sobre ownership de recursos, aislamiento de procesos, diseño de protocolos, infraestructura y modos de fallo.
 
-**Subagentes Especializados**
-- 🔍 **Explore Agent**: Análisis de codebase y arquitectura
-- 📋 **Plan Agent**: Diseño de implementaciones complejas
-- 🔒 **Security Agent**: Detección proactiva de vulnerabilidades
-- ✅ **Test Agent**: Generación de tests automatizados
+| Proyecto | Áreas principales |
+|---|---|
+| Minishell | Procesos Unix, descriptores de archivo, pipes, señales y system calls |
+| Philosophers | Hilos, mutexes, sincronización y prevención de race conditions |
+| CPP Modules | Diseño orientado a objetos, STL, templates, gestión de memoria y forma canónica |
+| ft_irc | Redes TCP, protocolo IRC, arquitectura cliente/servidor y E/S dirigida por eventos |
+| Inception | Docker, Docker Compose, NGINX, WordPress, MariaDB, redes y aislamiento de servicios |
 
-**Workflow de Desarrollo**
-```
-Idea → Plan (IA) → Code Review (IA + humano) → Security Scan (IA) → Deploy
-```
-
-**Resultados Medibles**
-- ⚡ **3x más rápido** en implementaciones complejas
-- 🔒 **Race condition detectada** por IA antes de código en producción
-- 📚 **Mejor documentación** generada automáticamente
-- 🎯 **Menos bugs** gracias a code review asistido
-
-**Mi Filosofía**
-> "La IA no reemplaza al developer, multiplica su impacto. Un buen developer con IA > 3 developers sin IA."
+[Ver mis proyectos de 42 →](https://github.com/martamakes?tab=repositories&q=42)
 
 ---
 
-## 💻 Formación: 42 Madrid
+## Forma de trabajar
 
-**Peer-to-peer learning** • C, C++, Algoritmos, Sistemas
-
-<div align="center">
-
-| Proyecto | Skills | Status |
-|----------|--------|--------|
-| **Minishell** | System calls, Process management | ✅ |
-| **Philosophers** | Threads, Mutex, Concurrency | ✅ |
-| **CPP Modules** | POO, STL, Templates | ✅ |
-
-[📚 Ver todos los proyectos de 42 →](https://github.com/martamakes?tab=repositories&q=42)
-
-</div>
+- Asumo ownership desde la definición del problema hasta la implementación, el despliegue y la iteración.
+- Uso desarrollo asistido por IA para exploración, generación de tests y revisión, manteniendo la responsabilidad sobre arquitectura, implementación y validación.
+- Valoro los trade-offs explícitos, TypeScript legible, validación automatizada, code review y el feedback de producción.
+- Me interesan especialmente SaaS, music-tech, herramientas para creadores y productos con IA aplicada.
 
 ---
 
-## 🛠️ Tech Stack Completo
+## Contacto
 
-<div align="center">
+Si estás construyendo un producto en el que importen el ownership full-stack, la seguridad práctica y la experiencia en producción, estaré encantada de hablar.
 
-### 💼 Experiencia Real en Producción
-
-![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-
-### 🤖 IA & Herramientas
-
-![Claude](https://img.shields.io/badge/Claude_API-8A2BE2?style=flat-square&logo=anthropic&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
-
-### 📚 Fundamentos
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
----
-
-## 📊 En Números
-
-<div align="center">
-
-| Métrica | Valor |
-|---------|-------|
-| 🎯 **Artistas en producción** | +150 |
-| 🎵 **Canciones distribuidas** | +2,000 |
-| ⚡ **Uptime en producción** | 99.9% |
-| 🚀 **Velocidad con IA** | 3x más rápido |
-| 📦 **Proyectos en GitHub** | [Ver repos →](https://github.com/martamakes?tab=repositories) |
-
-</div>
-
----
-
-## 🎯 Qué Busco en mi Próximo Rol
-
-✅ **Equipo técnico sólido** donde pueda aprender de seniors
-✅ **Stack moderno** (React/Next.js, TypeScript, arquitectura bien diseñada)
-✅ **Code reviews activas** y cultura de calidad
-✅ **Producto real** que resuelva problemas reales
-✅ **Ownership** de features end-to-end
-
-❌ No busco: Mantener legacy sin aprendizaje, trabajar en silos, proyectos sin usuarios reales
-
----
-
-## 📫 Hablemos
-
-<div align="center">
-
-**¿Te interesa mi perfil?** Escríbeme y cuéntame sobre tu equipo y producto 👇
-
-[![Email](https://img.shields.io/badge/📧_marta.vigara.gonzalez@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:marta.vigara.gonzalez@gmail.com)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Marta_Vigara-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/martavigara)
-[![Portfolio](https://img.shields.io/badge/Portfolio-distrify.me-00D9FF?style=flat-square&logo=vercel&logoColor=white)](https://distrify.me)
-
----
-
-💼 **Disponibilidad**: Inmediata
-📍 **Ubicación**: Madrid (presencial/híbrido/remoto)
-💰 **Expectativas**: Junior/Mid Full-Stack Developer
-
-</div>
-
----
-
-<div align="center">
-  <i>💻 De 42 Madrid a Full-Stack Developer. Construyendo el futuro, one commit at a time.</i>
-  <br/><br/>
-  <sub>⭐ Este README es código abierto. Si te gusta, dale una estrella.</sub>
-</div>
+[Email](mailto:marta.vigara.gonzalez@gmail.com) ·
+[LinkedIn](https://linkedin.com/in/martavigara) ·
+[Producto en vivo](https://distrify.me)

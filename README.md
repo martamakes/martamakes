@@ -1,7 +1,7 @@
 <div align="right">
 
-[![ES](https://img.shields.io/badge/Idioma-Español-yellow.svg)](README.md)
-[![EN](https://img.shields.io/badge/Language-English-red.svg)](README.en.md)
+[![EN](https://img.shields.io/badge/Language-English-red.svg)](README.md)
+[![ES](https://img.shields.io/badge/Idioma-Español-yellow.svg)](README.es.md)
 
 </div>
 
@@ -9,128 +9,112 @@
 
 # Marta Vigara
 
-### Full-stack Product Engineer · SaaS 0→1 · TypeScript · React · Next.js
+### Full-stack Product Engineer · SaaS 0→1 · TypeScript · Next.js · PostgreSQL
 
-Construyo productos SaaS desde la definición del problema hasta la operación en producción: discovery, MVP, experiencia de usuario, backend, pagos, seguridad, automatización y mejora continua.
+**I'm not starting my career in tech. I'm adding deep engineering skills to 20+ years of building, shipping and running real projects.**
 
-Combino ingeniería full-stack con experiencia en desarrollo de producto, marketing, operaciones y gestión de clientes. Entiendo cómo se vende, se usa y se mantiene un producto, y lo traduzco en software fiable que resuelve flujos de negocio reales.
+Founder & sole engineer of [Distrify.me](https://distrify.me) · 42 Madrid student · Educator
 
-**Madrid, España · Abierta a puestos remotos o híbridos de Full-stack / Product Engineering**
+📍 Madrid, Spain (CET) · 🇪🇸 Native · 🇬🇧 English C2 (Cambridge Proficiency) · 💼 Open to remote / hybrid
 
-[Email](mailto:marta.vigara.gonzalez@gmail.com) ·
-[LinkedIn](https://linkedin.com/in/martavigara) ·
-[Producto en producción: Distrify.me](https://distrify.me)
+[Email](mailto:marta.vigara.gonzalez@gmail.com) · [LinkedIn](https://linkedin.com/in/martavigara) · [Distrify.me](https://distrify.me)
 
 </div>
 
 ---
 
-## Qué busco
+## In 30 seconds
 
-Me interesan equipos que construyan SaaS, plataformas, herramientas internas, productos para creadores o IA aplicada; especialmente contextos en los que pueda aportar ownership full-stack, criterio de producto y experiencia operativa.
+- **I ship products end to end.** I designed, built and operate a production SaaS for music distribution used by 150+ independent artists, including payments, CI/CD security and AI-powered workflows.
+- **I've done this before without code.** I built and sold an e-commerce business, founded a live-music brand, and produced TV formats including *Big Brother* (Spain).
+- **I'm going deep on fundamentals.** At 42 Madrid I work in C/C++, Unix systems, concurrency, networking and containers, all through peer-reviewed projects.
+- **I translate between worlds.** I've spent 5 years teaching tech and business, and 20+ years working with clients, brands, artists and public administration.
 
-Busco oportunidades como **Product Engineer**, **Full-stack Engineer**, **Founding Engineer** o **Technical Product Builder**, especialmente en equipos 0→1 o productos que ya estén iterando con usuarios reales.
-
----
-
-## Proyecto destacado — Distrify.me
-
-[Distrify.me](https://distrify.me) es un SaaS music-tech en producción que ayuda a artistas independientes a distribuir, promocionar y monetizar su música.
-
-- Más de 150 artistas.
-- Más de 2.000 canciones distribuidas.
-- Producto diseñado, construido y operado de extremo a extremo.
-- Pagos, créditos, automatización, IA aplicada a marketing y operaciones de producto.
-
-Mi papel combina discovery de producto, definición de MVP, diseño de flujos de usuario y operaciones, arquitectura full-stack, seguridad, despliegue y soporte de producción.
-
-### Mi responsabilidad
-
-- Investigación de necesidades, definición de producto, priorización de MVPs y diseño de flujos para artistas y operaciones internas.
-- Diseño, desarrollo y operación del producto de extremo a extremo.
-- Flujos de suscripción y créditos con Stripe, incluyendo webhooks idempotentes, lógica de reintentos y registros de auditoría.
-- Flujos asistidos por IA que generan estrategias de marketing adaptadas a cada artista.
-- Arquitectura basada en Next.js App Router, Server Components y experiencias de streaming.
-- Controles de seguridad integrados en el ciclo de entrega, incluidos escaneos automatizados con OWASP ZAP en GitHub Actions.
-- Despliegue y operaciones de producción en Vercel, con monitorización y depuración orientada a incidencias.
-
-### Decisiones técnicas seleccionadas
-
-| Reto | Implementación | Impacto |
-|---|---|---|
-| Consumo concurrente de créditos | Control de concurrencia optimista mediante actualizaciones versionadas en Prisma | Evita el doble consumo ante solicitudes simultáneas y protege la consistencia del saldo |
-| Fiabilidad de eventos de pago | Procesamiento idempotente de webhooks de Stripe, reintentos y trazabilidad con registros de auditoría | Conciliación recuperable entre eventos externos y el estado transaccional de la base de datos |
-| Seguridad antes del despliegue | Comprobaciones con OWASP ZAP en GitHub Actions; los hallazgos críticos bloquean los pull requests | Identificación y corrección de más de 15 incidencias antes de producción |
-| Experiencia de producto ágil | Server Components en rutas sensibles para SEO; Client Components, actualizaciones optimistas y streaming con Suspense donde hace falta interacción | Rutas públicas optimizadas para SEO y una experiencia de uso más fluida en flujos interactivos |
-
-### Stack
-
-**TypeScript · React · Next.js · Tailwind CSS · Prisma · PostgreSQL / Neon · Redis · Stripe · Claude API · Sanity · GitHub Actions · Vercel · Cloudflare**
-
-> El repositorio de producción contiene lógica de negocio propietaria. Puedo realizar una demostración del producto, explicar decisiones de arquitectura o compartir material de implementación anonimizado y seleccionado bajo petición.
+**Looking for:** Product Engineer · Full-stack Engineer · Founding Engineer roles in SaaS, creator tools, internal platforms or applied AI.
 
 ---
 
-## De problema de negocio a producto en producción
+## Featured project: Distrify.me
 
-Mi experiencia previa en producto, marketing, operaciones y gestión de clientes me permite participar antes de que exista una especificación técnica: entiendo el problema, identifico restricciones reales y convierto el flujo en un MVP medible y evolutivo.
+**A music distribution & marketing SaaS for independent artists in Spain and Latin America.** I'm the sole engineer: product, architecture, code, deployment and support.
 
-- **Productos 0→1 y MVPs:** defino alcance, hipótesis, flujos críticos y una primera versión que permita aprender sin sobredimensionar la solución.
-- **Producto operable:** diseño pensando en excepciones, soporte, conciliación, permisos, auditoría y trabajo diario del equipo, no solo en el happy path.
-- **Ciclo completo:** puedo asumir discovery, implementación full-stack, despliegue, análisis de uso e iteración posterior con usuarios.
-- **Automatización de negocio:** conecto CRM, email, pagos, facturación, reporting y herramientas internas para reducir trabajo manual y errores.
-
-Este enfoque me ha permitido:
-
-- Evitar el consumo excesivo de créditos ante solicitudes concurrentes mediante control de concurrencia optimista.
-- Hacer recuperable el procesamiento de pagos con webhooks idempotentes de Stripe, reintentos y registros de auditoría.
-- Reducir riesgo de despliegue al integrar controles de seguridad en CI/CD, en lugar de depender solo de revisiones manuales.
-- Automatizar flujos operativos de marketing entre CRM, herramientas de email y reporting con n8n.
-- Diseñar funcionalidades alrededor del flujo de trabajo real de artistas, no como componentes técnicos aislados.
-
----
-
-## Experiencia adicional
-
-### Sistemas de negocio y automatización
-
-- Desarrollo de módulos personalizados de Odoo en Python para asistencia por proyectos, facturación, tesorería, contabilidad y procesos fiscales.
-- Integraciones de facturación orientadas a Verifactu para requisitos de facturación en España.
-- Automatizaciones con n8n para sincronización de CRM, orquestación de campañas, acciones disparadas por eventos y reporting.
-- Diseño de procesos y herramientas internas con foco en reducir tareas manuales, mejorar trazabilidad y facilitar la operación diaria.
-
-**Python · Odoo · n8n · PostgreSQL · REST APIs**
-
-### Fundamentos de ingeniería — 42 Madrid
-
-Proyectos completados de sistemas y C++ centrados en concurrencia, redes, contenedores y despliegue. Han reforzado mi forma de razonar sobre ownership de recursos, aislamiento de procesos, diseño de protocolos, infraestructura y modos de fallo.
-
-| Proyecto | Áreas principales |
+| | |
 |---|---|
-| Minishell | Procesos Unix, descriptores de archivo, pipes, señales y system calls |
-| Philosophers | Hilos, mutexes, sincronización y prevención de race conditions |
-| CPP Modules | Diseño orientado a objetos, STL, templates, gestión de memoria y forma canónica |
-| ft_irc | Redes TCP, protocolo IRC, arquitectura cliente/servidor y E/S dirigida por eventos |
-| Inception | Docker, Docker Compose, NGINX, WordPress, MariaDB, redes y aislamiento de servicios |
+| **In production** | 3 years |
+| **Users** | 150+ artists distributing and getting paid through the platform |
+| **Role** | Founder, product owner, full-stack engineer, operator |
 
-[Ver mis proyectos de 42 →](https://github.com/martamakes?tab=repositories&q=42)
+**Engineering highlights**
 
----
+- **Payments & credits on Stripe:** idempotent webhook handling, retry logic and an audit trail, because money flows can't have "mostly works".
+- **Security in CI/CD:** automated OWASP ZAP scans in GitHub Actions on every deploy.
+- **AI-assisted marketing flows:** Claude API integrations that generate campaign assets for artists.
+- **Designed for operations:** support tooling, permissions, edge cases and traceability, beyond the happy path.
 
-## Forma de trabajar
+**Stack:** TypeScript · React · Next.js · Prisma · PostgreSQL (Neon) · Redis · Stripe · GitHub Actions · Vercel · Cloudflare
 
-- Asumo ownership desde la definición del problema hasta la implementación, el despliegue y la iteración.
-- Trabajo con usuarios, equipos y datos operativos para decidir qué construir antes de convertirlo en una solución técnica.
-- Uso desarrollo asistido por IA para exploración, generación de tests y revisión, manteniendo la responsabilidad sobre arquitectura, implementación y validación.
-- Valoro los trade-offs explícitos, TypeScript legible, validación automatizada, code review y feedback de producción.
-- Me interesan especialmente SaaS, music-tech, herramientas para creadores y productos con IA aplicada.
+<!-- If the codebase is private, keep this line and link a public case-study repo: -->
+➡️ [Architecture & engineering decisions](https://github.com/martamakes/distrify-architecture) · The codebase is private, and I'm happy to walk through it in an interview.
 
 ---
 
-## Contacto
+## Business systems & automation
 
-Si estás construyendo un producto en el que importen el ownership full-stack, el criterio de producto, la seguridad práctica y la experiencia en producción, estaré encantada de hablar.
+- **Odoo (Python):** custom modules for invoicing, treasury, accounting and tax processes.
+- **Verifactu:** e-invoicing integrations for Spain's new anti-fraud invoicing regulation.
+- **n8n:** automations connecting CRM, email, campaigns and reporting.
 
-[Email](mailto:marta.vigara.gonzalez@gmail.com) ·
-[LinkedIn](https://linkedin.com/in/martavigara) ·
-[Producto en producción: Distrify.me](https://distrify.me)
+---
+
+## Tech stack
+
+| | |
+|---|---|
+| **Production daily** | TypeScript, React, Next.js, Node.js, PostgreSQL, Prisma, Stripe, GitHub Actions, Vercel |
+| **Solid** | Python (Odoo, backend), C, C++, Docker, NGINX, Redis, REST APIs, n8n |
+| **Along the way** | Excel/VBA → Unity/C# → C/C++ at 42 → TypeScript in production |
+| **AI** | Claude API in production. I use AI to explore, generate tests and review; architecture and validation stay with me. |
+
+---
+
+## What I bring beyond code
+
+- **Product 0→1:** I turn vague needs into flows, MVPs and products people actually use.
+- **Clients & stakeholders:** I've negotiated brand integrations for national TV, supported 150+ artists, and sold B2C and to public health administrations.
+- **Team coordination:** I've run TV production crews, concerts, festivals, tours, and the collaborators in my own companies.
+- **Teaching & communication:** I've taught digital marketing, business, programming and nutrition for 5 years. I explain technical concepts to non-technical people, and business needs to engineers.
+- **International:** I spent four years between Spain and the US touring with artists and designing for an independent record label.
+
+---
+
+## Career path
+
+| Years | What I did |
+|---|---|
+| **2022 – now** | **Founder & engineer, Distrify.me.** Built the platform from scratch. |
+| **2021 – now** | **Educator.** Digital marketing, business, programming and nutrition, in publicly funded professional training programs. |
+| **2012 – 2021** | **Founder, SaludShopping.com.** Solo-built a PrestaShop e-commerce store for respiratory therapy equipment (CPAP, oxygen therapy), sold B2C and to public healthcare, and later sold the company. Also founded **Menudo Fest**, a family concert series. |
+| **2007 – 2011** | **TV & music industry.** Production at Mediapro / Castilla-La Mancha TV and Boomerang TV (Atresmedia channels). Commercial & branded content at Zeppelin TV (*Big Brother* Spain). Music publishing at BMG Rights Management. |
+| **~2003 – 2006** | **Music, Spain ↔ USA.** Concert and festival promotion (Lorca Rock), then touring and cover/visual design for Rip Off Records, a US independent label. |
+| **1997 – 2005** | **Operations & admin.** Public tenders for home-healthcare services, then roles at Microsoft, Sun Microsystems and Yelmo Cineplex. |
+
+**Education:** 42 Madrid (in progress) · Master's in Audiovisual Production · Studied Audiovisual Communication & Multimedia (Universidad Francisco de Vitoria) · Music Management · Higher VET in Dietetics · Certified Personal Trainer
+
+---
+
+## How I work
+
+- **Full ownership:** problem → implementation → deployment → iteration.
+- **Listen before building:** I talk to users to decide what's actually worth building.
+- **Design for real operations:** I plan for exceptions, support, permissions and auditability.
+- **Explain the why:** I write docs and PRs that non-engineers can follow.
+
+---
+
+<div align="center">
+
+**Let's talk.** I reply to every message.
+
+[Email](mailto:marta.vigara.gonzalez@gmail.com) · [LinkedIn](https://linkedin.com/in/martavigara) · [Distrify.me](https://distrify.me)
+
+</div>

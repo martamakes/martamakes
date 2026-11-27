@@ -1,15 +1,25 @@
 <div align="right"><a href="README.md">English</a></div>
 
-# Marta Vigara
+# Hola, soy Marta 👋
 
-**Full-stack Product Engineer · SaaS 0→1 · TypeScript · Next.js · PostgreSQL**
+### Ya da casi igual en qué lenguaje se programe. Lo que importa es construir cosas que merezcan la pena.
 
-Fundadora e ingeniera única de [Distrify.me](https://distrify.me), un SaaS de distribución musical en producción desde hace 3 años con más de 150 artistas independientes: pagos con Stripe, seguridad en CI/CD y flujos de marketing con IA. Estudio en 42 Madrid, con más de 20 años construyendo y haciendo funcionar proyectos reales antes de eso.
+Lo mío es lo que pasa antes del código: escuchar a las personas, entender cómo fluye de verdad su trabajo y convertir ese flujo en software que aguante en el mundo real. El código es la última traducción, y la IA la ha hecho más rápida que nunca. Las primeras, de una necesidad difusa a un flujo claro, siguen siendo trabajo humano.
 
-**Busco:** puestos de Product Engineer, Full-stack Engineer o Founding Engineer en SaaS, herramientas para creadores o IA aplicada.
+Llevo más de 20 años haciéndolo, en televisión, música, e-commerce y docencia. Hoy lo hago como fundadora e ingeniera única de [Distrify.me](https://distrify.me), donde más de 150 artistas independientes distribuyen su música y cobran. Además estudio en 42 Madrid y voy a fondo en cómo funcionan las cosas por debajo, porque eso me hace mejor en todo lo demás.
 
-**Stack:** TypeScript · React · Next.js · Prisma · PostgreSQL · Stripe · GitHub Actions · Vercel · Python (Odoo) · C/C++
+Si tu equipo necesita a alguien que sepa hablar con los usuarios, entender el problema y entregar la solución, hablemos. Respondo a todos los mensajes.
 
-📍 Madrid (CET) · Disponible en remoto o híbrido · Inglés C2
+**Experiencia**
+- Equipos de marketing y comunicación
+- Producción audiovisual para televisión
+- Gestión de licencias
+- Desarrollo de plataformas ([Distrify.me](https://distrify.me)) y gestión de comercio electrónico (SaludShopping.com)
+
+**Formación**
+- Comunicación audiovisual y marketing
+- Estudiante de ingeniería de inteligencia artificial (UNED y 42 Madrid)
+
+📍 Madrid · Remoto o híbrido · Puestos de Product Engineer, Full-stack o Founding Engineer
 
 [Email](mailto:marta.vigara.gonzalez@gmail.com) · [LinkedIn](https://linkedin.com/in/martavigara) · [Distrify.me](https://distrify.me)

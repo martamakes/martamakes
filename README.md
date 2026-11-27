@@ -13,7 +13,9 @@ If your team needs someone who can talk to users, understand the problem and shi
 **Experience**
 - Marketing and communication teams
 - TV audiovisual production
-- Licensing management
+- Music rights for advertising and sync licensing
+- Brand integrations in TV shows (*Big Brother*, *Fama ¡A bailar!*)
+- TV format licensing to create derivative products
 - Platform development ([Distrify.me](https://distrify.me)) and e-commerce management (SaludShopping.com)
 
 **Education**

@@ -13,7 +13,9 @@ Si tu equipo necesita a alguien que sepa hablar con los usuarios, entender el pr
 **Experiencia**
 - Equipos de marketing y comunicación
 - Producción audiovisual para televisión
-- Gestión de licencias
+- Derechos de música para anuncios y sincronizaciones
+- Integración de marcas en programas de televisión (*Gran Hermano*, *Fama ¡A bailar!*)
+- Gestión de la licencia de los formatos para crear productos derivados
 - Desarrollo de plataformas ([Distrify.me](https://distrify.me)) y gestión de comercio electrónico (SaludShopping.com)
 
 **Formación**
